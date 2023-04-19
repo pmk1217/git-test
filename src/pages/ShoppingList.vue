@@ -50,6 +50,7 @@
     </q-card-section>
   </q-card-section>
 
+
   <!--list-->
   <q-card-section>
     <q-list bordered>

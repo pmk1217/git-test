@@ -5,6 +5,10 @@ const http = require('http');
 const app = express();
 const port = config.PORT;
 const cors = require('cors');
+//body parser
+app.use(express.json());
+app.use(express.urlencoded({extended : true}));
+
 
 let corsOptions = {
   origin : '*',   // 출처 허용 옵션
@@ -13,6 +17,7 @@ let corsOptions = {
 app.use(cors(corsOptions));
 
 const autoRoute = require('./autoRoute');
+const exp = require('constants');
 autoRoute('/api', app);
 
 const webServer = http.createServer(app);
