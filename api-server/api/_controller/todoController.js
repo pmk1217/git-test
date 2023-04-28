@@ -151,6 +151,28 @@ const todoController = {
     return rows;
   },
 
+  	//reset
+    // 1번 : 테이블 내용 지우기
+    // 2번 : title에 내용에 번호 부여, 1씩 증가, len 만큼 insert
+    // 3번 : 성공으로 리턴
+   // reset: async (req) => {
+  //    const { title , done, len} = req.body; // url /로 들어오는것
+  //    if (isEmpty(title) || isEmpty(done)) {
+  //      return resData(STATUS.E100.result, STATUS.E100.resultDesc, moment().format('LT'));
+ //     }
+ //     try {
+  //      const query = `DROP TABLE ${TABLE.TODO}`;
+     //   const value = [title, done, len];
+    //    const [rows] = await db.execute(query, values);
+   //     for {
+//
+     //   };
+  //  } catch (e) {
+ //     console.log(e.message);
+   //   return resData(STATUS.E300.result, STATUS.E300.resultDesc, moment().format('LT'));
+   // }
+
+  //},
 
 };
 

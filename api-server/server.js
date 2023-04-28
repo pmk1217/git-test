@@ -7,7 +7,7 @@ const port = config.PORT;
 const cors = require('cors');
 //body parser
 app.use(express.json());
-app.use(express.urlencoded({extended : true}));
+app.use(express.urlencoded({extended : true }));
 
 
 let corsOptions = {

@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          <q-btn to="/" label="Quasar App" class="text-subtitle1" unelevated></q-btn>
+          <q-btn to="/" label="진짜 어렵당" class="text-subtitle1" unelevated></q-btn>
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -69,10 +69,10 @@ const linksList = [
     link: '/todo'
   },
   {
-    title: '메뉴 테스트',
-    caption: 'dd',
-    icon: 'school',
-    link: '/vue'
+    title: '추천 도서 리스트',
+    caption: '장바구니에 담아보세요!',
+    icon: 'list',
+    link: '/test'
   },
 //  {
  //   title: 'Docs',
